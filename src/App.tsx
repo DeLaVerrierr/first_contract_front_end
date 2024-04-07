@@ -6,6 +6,7 @@ import { fromNano } from "ton-core";
 import WebApp from "@twa-dev/sdk";
 
 
+
 function App() {
   const {
     contract_address,
@@ -44,17 +45,6 @@ function App() {
           <b>Counter Value</b>
           <div>{counter_value ?? "Loading..."}</div>
         </div>
-
-
-        <a
-            onClick={() => {
-              showAlert();
-            }}
-          >
-            Show Alert
-          </a>
-
-        <br/>
 
         <a
           onClick={() => {
