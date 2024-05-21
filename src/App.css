@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.Circle {
+  width: 50px; /* ширина круга */
+  height: 50px; /* высота круга */
+  background-color: blue; /* цвет фона круга */
+  border-radius: 50%; /* закругление углов для создания круга */
+  display: inline-block; /* чтобы элемент был блочным и не занимал всю строку */
+  cursor: pointer; /* меняем курсор на указатель при наведении */
+}
