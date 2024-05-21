@@ -46,9 +46,7 @@ function App() {
           <b>Counter Value</b>
           <div>{counter_value ?? "Loading..."}</div>
         </div>
-          <div className='Circle'>
-
-          </div>
+          
         <a
           onClick={() => {
             showAlert();
